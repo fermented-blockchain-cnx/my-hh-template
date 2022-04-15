@@ -30,11 +30,11 @@ const config: HardhatUserConfig = {
             url: "http://localhost:8545",
         },
         rinkeby: {
-            url: "https://rinkeby.infura.io/v3/d60ef63fc80241f485099b26b2a1e5f7", // <---- YOUR INFURA ID! (or it won't work)
+            url: "https://rinkeby.infura.io/v3/", // <---- YOUR INFURA ID! (or it won't work)
             accounts: [PRIVATE_KEY],
         },
         mainnet: {
-            url: "https://mainnet.infura.io/v3/d60ef63fc80241f485099b26b2a1e5f7",
+            url: "https://mainnet.infura.io/v3/",
             accounts: [PRIVATE_KEY],
         },
     },
